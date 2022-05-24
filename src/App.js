@@ -1,14 +1,9 @@
 import './App.css';
 
-import Login from './components/Login';
 /* import Signup from './components/Signup'; */
 
 function App() {
-  return (
-    <div className="App">
-      <Login />
-    </div>
-  );
+  return <div className="App"></div>;
 }
 
 export default App;
