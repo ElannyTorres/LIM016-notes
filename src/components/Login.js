@@ -20,7 +20,7 @@ function Login() {
           </form>
           <h6>
             Si no tiene una cuenta haga click en el siguiente enlace{' '}
-            <a href="/home">Sign Up</a>
+            <a href="signup">Sign Up</a>
           </h6>
         </div>
       </div>
