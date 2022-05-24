@@ -1,5 +1,4 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import '../styles/Login.css';
 
 import Logo from './Logo';
@@ -13,13 +12,16 @@ function Login() {
           <h2>Login</h2>
         </div>
         <div className="form-container">
-          <h4>¿Ya tiene una cuenta?</h4>
-          <h4></h4>
+          <h6>¿Ya tiene una cuenta?</h6>
           <form action="">
-            <input type="email" placeholder="Ingrese su email" />
-            <input type="password" placeholder="Ingrese su contraseña" />
+            <input type="email" placeholder="cuenta@mail.com" />
+            <input type="password" placeholder="******" />
             <button>Ingresar</button>
           </form>
+          <h6>
+            Si no tiene una cuenta haga click en el siguiente enlace{' '}
+            <a href="/home">Sign Up</a>
+          </h6>
         </div>
       </div>
     </div>
