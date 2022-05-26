@@ -1,0 +1,27 @@
+.note-container {
+  margin: 0.5rem;
+  padding: 0.5em;
+  border-radius: 10px;
+  border: 1px solid grey;
+  max-width: 13rem;
+  height: auto;
+}
+h4 {
+  padding: 0.3em
+}
+p {
+  text-align: justify;
+}
+.btns {
+  margin-top: 0.7rem;
+  display: flex;
+  justify-content: space-between;
+}
+.btn {
+  padding: 0.2rem;
+}
+.btn:hover {
+  background-color: #CB9CF2;
+  border-radius: 50%;
+  color: white;
+}

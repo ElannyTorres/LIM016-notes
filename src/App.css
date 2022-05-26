@@ -2,7 +2,111 @@
   margin: 0;
   padding: 0;
 }
-.App {
-  text-align: center;
-  justify-content: center;
+header {
+  width: 100vw;
+  background-color: white;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 1px 5px grey;
+  position: fixed;
 }
+.menu {
+  font-size: 1.8rem;
+  margin: 0;
+  padding: 0.5rem;
+  display: flex;
+  color: black;
+  background-color: #9E7B9B;
+  border-radius: 50%;
+}
+.menu:hover {
+  color: white;
+  background-color: #CB9CF2;
+}
+.logo {
+  padding: 0.2rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  color: #9E7B9B;
+  border-radius: 20px;
+}
+.logo > img {
+  width: 2.5rem;
+  box-shadow: none;
+  border: 1px solid white;
+  margin-right: 0.4rem;
+  border: 2px solid #9E7B9B;
+}
+.search-bar {
+  background-color: white;
+  border-radius: 10px;
+  padding-left: 0.5rem;
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 1px 5px grey;
+}
+#searchicon {
+  font-size: 1.3rem;
+  margin-right: -0.3rem;
+}
+input {
+  margin:0;
+  padding: 0;
+}
+input:focus {
+  outline: none;
+}
+.profile {
+  margin-right: 1.5rem;
+  width: 2.8rem;
+  height: 2.8rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: grey;
+  border-radius: 50%;
+}
+.profile:hover {
+  color: white;
+  background-color: #CB9CF2;
+}
+.profile > img {
+  width: 2.2rem;
+  border-radius: 50%;
+  border: 1px solid white;
+  background-color: grey;
+  box-shadow: none;
+}
+.profile > img:hover {
+  border: 2px solid white;
+}
+
+.body-container {
+  padding-top: 3.7rem;
+  display: flex;
+}
+.icons-menu {
+  min-width: 8rem;
+}
+.notes-container {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/*
+obsesion
+todavía me amas
+el malo
+el perdedor
+dile al amor
+los infieles
+la boda
+solo por un beso
+*/

@@ -1,0 +1,24 @@
+.icons-container {
+  padding-top: 1rem;
+}
+.boton-container {
+  padding: 0.5rem;
+  color: grey;
+  border-radius: 0 20px 20px 0;
+}
+.boton-container > span {
+  padding-left: 0.5rem;
+  text-align: left;
+}
+.boton-container.selected {
+  color: white;
+  background-color: #9E7B9B;
+}
+.boton-container:hover {
+  color: white;
+  background-color: #CB9CF2;
+}
+.icon {
+  font-size: 1.5rem;
+  /* color: grey */
+}
