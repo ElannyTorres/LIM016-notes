@@ -16,11 +16,13 @@ function Login() {
           <form action="">
             <input type="email" placeholder="cuenta@mail.com" />
             <input type="password" placeholder="******" />
-            <button>Ingresar</button>
+            <button>
+              <a href="home">Ingresar</a>
+            </button>
           </form>
           <h6>
-            Si no tiene una cuenta haga click en el siguiente enlace{' '}
-            <a href="signup">Sign Up</a>
+            Si no tiene una cuenta haga click en el siguiente enlace
+            <a href="signup"> Sign Up</a>
           </h6>
         </div>
       </div>
