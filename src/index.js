@@ -8,6 +8,7 @@ import './index.css';
 import App from './App';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
+import Error from './components/Error';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -16,6 +17,7 @@ root.render(
       <Route path="/" element={<Login />}></Route>
       <Route path="/signup" element={<SignUp />}></Route>
       <Route path="/home" element={<App />}></Route>
+      <Route path="*" element={<Error />}></Route>
     </Routes>
   </BrowserRouter>
 );
