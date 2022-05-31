@@ -29,7 +29,7 @@ function App() {
           <img src={ProfileDefault} alt="" />
         </div>
       </header>
-      <div className="body-container">
+      
         <div className="icons-menu">
           <IconsMenu />
         </div>
@@ -46,7 +46,14 @@ function App() {
             title="Nota 1"
             texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptate fugiat impedit quae amet ea odio consectetur dicta dolore. Ad fugit consequatur minima. Suscipit ea adipisci ipsam rem, architecto ex?"
           />
-        </div>
+          <Note
+            title="Nota 1"
+            texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptate fugiat impedit quae amet ea odio consectetur dicta dolore. Ad fugit consequatur minima. Suscipit ea adipisci ipsam rem, architecto ex?"
+          />
+          <Note
+            title="Nota 1"
+            texto="Lorem ipsum dolor sit amet consectetur adipisicing elit. Et voluptate fugiat impedit quae amet ea odio consectetur dicta dolore. Ad fugit consequatur minima. Suscipit ea adipisci ipsam rem, architecto ex?"
+          />
       </div>
     </div>
   );
