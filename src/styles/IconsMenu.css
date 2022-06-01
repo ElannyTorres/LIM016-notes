@@ -5,6 +5,8 @@
   padding: 0.5rem;
   color: grey;
   border-radius: 0 20px 20px 0;
+  display: flex;
+  align-items: center;
 }
 .boton-container > span {
   padding-left: 0.5rem;

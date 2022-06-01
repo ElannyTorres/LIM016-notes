@@ -2,6 +2,7 @@ import './App.css';
 
 import LogoIcon from './img/Logo.png';
 import IconsMenu from './components/IconsMenu';
+import CreateNote from './components/CreateNote';
 import Note from './shared/Note';
 
 import { AiOutlineSearch, AiOutlineMenu, AiOutlineClose } from 'react-icons/ai';
@@ -22,8 +23,8 @@ function App() {
         </div>
         <div className="search-bar">
           <AiOutlineSearch id="searchicon" />
-          <input type="text" placeholder="Buscar..." />
-          <AiOutlineClose />
+          <input className="searchBarInput" type="text" placeholder="Buscar..." />
+          <AiOutlineClose id="closeicon" />
         </div>
         <div className="profile">
           <img src={ProfileDefault} alt="" />
@@ -32,6 +33,9 @@ function App() {
       
         <div className="icons-menu">
           <IconsMenu />
+        </div>
+        <div className="newNote">
+          <CreateNote />
         </div>
         <div className="notes-container">
           <Note

@@ -1,0 +1,19 @@
+.createInput {
+  border-radius: 5px 0 0 5px;
+  height: 1.8rem;
+  margin: 0;
+  width: 7rem;
+  color: white;
+  background-color: #CB9CF2;
+  cursor: pointer;
+}
+#plusIcon {
+  background-color: aqua;
+  font-size: 1.2rem;
+  height: 1.8rem;
+  padding: 0 0.2rem 0 0.2rem;
+  border-radius: 0 5px 5px 0;
+  color: white;
+  background-color: #CB9CF2;
+  cursor: pointer;
+}
